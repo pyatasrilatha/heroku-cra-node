@@ -4,7 +4,8 @@ import './App.css';
 import Flights from './Flights';
 import Header from './Header';
 import Footer from './Footer';
-import './Source.css'
+import './Source.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [message, setMessage] = useState(null);
